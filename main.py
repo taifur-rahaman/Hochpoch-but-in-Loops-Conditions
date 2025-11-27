@@ -1,3 +1,5 @@
+import rangeFinder
+
 
 print("Hochpoch Problems")
 
@@ -13,7 +15,7 @@ while True:
     elif choice == "4":
         pass # Reverse Digits Code goes here
     elif choice == "5":
-        pass # In Range finder Code goes here
+        rangeFinder.choice()
     elif choice == "0":
         print("Exiting the program. Goodbye!")
         break
