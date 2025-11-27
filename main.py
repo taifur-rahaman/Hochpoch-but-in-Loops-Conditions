@@ -11,7 +11,7 @@ while True:
     elif choice == "2":
         func.digit_counter()
     elif choice == "3":
-        pass # Sum of Digits Code goes here
+        func.sum_of_digits()
     elif choice == "4":
         pass # Reverse Digits Code goes here
     elif choice == "5":
