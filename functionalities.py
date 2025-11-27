@@ -11,7 +11,7 @@ def multiplication_table():
 
 def digit_counter():
     user_input = int(input("Enter a integer to count its digits: "))
-    
+    temp_input = user_input
     count = 0
     
     if user_input == 0:
@@ -20,3 +20,4 @@ def digit_counter():
         while user_input != 0:
             user_input //= 10
             count += 1
+    print(f"The number of digits in {temp_input} is {count}.")
