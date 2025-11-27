@@ -30,3 +30,15 @@ def sum_of_digits():
         total += digit
         user_input //= 10
     print(f"The sum of the digits in {temp_input} is {total}.")
+
+def reverse_digits():
+    user_input = int(input("Enter an integer to reverse its digits: "))
+    temp_input = user_input
+    
+    reversed_number = 0
+    
+    while user_input != 0:
+        digit = user_input % 10
+        reversed_number = reversed_number * 10 + digit
+        user_input //= 10
+    print(f"The reverse of the digits in {temp_input} is {reversed_number}.")

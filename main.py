@@ -13,7 +13,7 @@ while True:
     elif choice == "3":
         func.sum_of_digits()
     elif choice == "4":
-        pass # Reverse Digits Code goes here
+        func.reverse_digits()
     elif choice == "5":
         rangeFinder.choice()
     elif choice == "0":
