@@ -61,6 +61,17 @@ def min_max_finder():
             max = num
     print(f"The minimum number is : {min}\nThe maximum number is : {max}")
 
+def factorial_of_number():
+    user_input = int(input("Enter a non-negative integer to find its factorial: "))
+    
+    fact = 1
+    
+    for i in range(1, user_input + 1, 1):
+        fact = fact * i
+    
+    print(f"The factorial is: {fact}")
+    
+
 def asking_for_range():
     lower_limit = int(input("Enter the lower limit of the range: "))
     upper_limit = int(input("Enter the upper limit of the range: "))

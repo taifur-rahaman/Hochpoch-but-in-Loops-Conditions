@@ -7,5 +7,6 @@
 - Sum of Digits
 - Reverse Integers
 - Min/Max Numbers
+- Factorial of Numbers
 - Prime Numbers in Range
 - Even/Odd Numbers in Range
