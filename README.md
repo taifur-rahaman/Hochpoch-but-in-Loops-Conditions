@@ -6,5 +6,6 @@
 - Digit Counter
 - Sum of Digits
 - Reverse Integers
+- Min/Max Numbers
 - Prime Numbers in Range
 - Even/Odd Numbers in Range

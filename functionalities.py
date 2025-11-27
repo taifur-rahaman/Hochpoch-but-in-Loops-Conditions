@@ -43,6 +43,24 @@ def reverse_digits():
         user_input //= 10
     print(f"The reverse of the digits in {temp_input} is {reversed_number}.")
 
+def min_max_finder():
+    limit = int(input("Enter how many numbers you want to input: "))
+    numbers = []
+    
+    for user_input in range(limit):
+        num = float(input(f"Enter number {user_input + 1}: "))
+        numbers.append(num)
+        
+    min = numbers[0]
+    max = numbers[0]
+    
+    for num in numbers:
+        if num < min:
+            min = num
+        if num > max:
+            max = num
+    print(f"The minimum number is : {min}\nThe maximum number is : {max}")
+
 def asking_for_range():
     lower_limit = int(input("Enter the lower limit of the range: "))
     upper_limit = int(input("Enter the upper limit of the range: "))

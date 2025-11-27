@@ -4,7 +4,7 @@ import rangeFinder, functionalities as func
 print("Hochpoch Problems")
 
 while True:
-    choice = input("Choose an option:\n1. Multiplication Table\n2. Digit Counter\n3. Sum of Digits\n4. Reverse Digits\n5. In Range finder\n0. Exit\nEnter Your Choice: ")
+    choice = input("Choose an option:\n1. Multiplication Table\n2. Digit Counter\n3. Sum of Digits\n4. Reverse Digits\n5. In Range finder\n6. Minimum and Maximum Finder\n0. Exit\nEnter Your Choice: ")
     
     if choice == "1":
         func.multiplication_table()
@@ -16,6 +16,8 @@ while True:
         func.reverse_digits()
     elif choice == "5":
         rangeFinder.choice()
+    elif choice == "6":
+        func.min_max_finder()
     elif choice == "0":
         print("Exiting the program. Goodbye!")
         break
